@@ -1,0 +1,27 @@
+{
+  "name": "vanilla-preset",
+  "version": "1.0.0",
+  "description": "Yet another project boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack",
+    "test": "jest --watchAll"
+  },
+  "author": "fiberthrone",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-jest": "^23.1.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.7.4"
+  }
+}

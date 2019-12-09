@@ -4,7 +4,8 @@ module.exports = {
   },
   extends: ["eslint:recommended", "prettier"],
   env: {
-    node: true
+    node: true,
+    es6: true
   },
   overrides: [
     Object.assign(

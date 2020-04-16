@@ -11,17 +11,15 @@
   "author": "fiberthrone",
   "license": "MIT",
   "devDependencies": {
-    "cross-env": "^6.0.3",
-    "eslint": "^6.7.2",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-jest": "^23.1.1",
-    "jest": "^24.9.0",
-    "prettier": "^1.19.1",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.9.0"
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "jest": "^25.3.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "@babel/preset-env": "^7.7.4"
+    "@babel/preset-env": "^7.9.5"
   }
 }
